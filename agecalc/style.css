@@ -1,0 +1,54 @@
+*{
+    margin:0;
+    padding:0;
+}
+body{
+    background: linear-gradient(100deg , lightblue,darkblue);
+}
+h1{
+    font-size:50px;
+    color:white;
+    font-weight:bolder;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin-top: 68px;
+    margin-left: 53px;
+}
+.box{
+    display: flex;
+    background-color: lightblue;
+    margin-top: 68px;
+    margin-left: 55px;;
+    box-sizing: border-box;
+    height:100px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    width:523px;
+    gap:14px;
+}
+.calbtn{
+    background-color: #ffff76;
+    width:150px;
+    height:50px;
+    font-size: 18px;
+    border:0;
+    border-radius: 8px;
+    color:#333;
+    cursor: pointer;
+   
+}
+button:hover{
+    transform: scale(1.01);
+}
+.calendar input{
+width:300px;
+height:48px;
+font-size: 18px;
+padding: 10px;
+}
+.result{
+    margin-left:63px;
+    font-size: 20px;
+    color:yellow;
+    font-family: 'Times New Roman', Times, serif;
+}
