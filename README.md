@@ -1,5 +1,5 @@
 Hello
-HII
+hii
 # Age Calculator
 This is a responsive Age Calculator web application developed using HTML, CSS, and JavaScript.
 
